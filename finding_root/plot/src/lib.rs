@@ -2,7 +2,7 @@ use plotly::common::{DashType, Line, Mode, Title};
 use plotly::layout::Axis;
 use plotly::{Layout, Plot, Scatter};
 
-pub fn scatter_plot(x: Vec<f64>, y: Vec<f64>, c: &str, title: &str) {
+pub fn scatter_plot(x: Vec<f32>, y: Vec<f32>, c: &str, title: &str) {
     let trace1 = Scatter::new(x, y).name(c).mode(Mode::Markers);
 
     let layout = Layout::new()

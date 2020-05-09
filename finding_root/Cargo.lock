@@ -45,6 +45,10 @@ version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "bisection"
+version = "0.1.0"
+
+[[package]]
 name = "cfg-if"
 version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -53,6 +57,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "example"
 version = "0.1.0"
 dependencies = [
+ "bisection 0.1.0",
  "ndarray 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "newton_raphson 0.1.0",
  "plot 0.1.0",

@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 newton_raphson = {path = "../newton_raphson"}
+bisection = {path = "../bisection"}
 plot = {path = "../plot"}
 ndarray = "0.13.0"
 
@@ -15,4 +16,8 @@ ndarray = "0.13.0"
 
 [[bin]]
 name = "nr"
+test = false
+
+[[bin]]
+name = "bisection"
 test = false

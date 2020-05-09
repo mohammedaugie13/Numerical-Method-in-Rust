@@ -2,5 +2,6 @@
 members = [
     "example",
     "newton_raphson",
+    "bisection",
     "plot",
 ]
